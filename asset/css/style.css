@@ -1,0 +1,197 @@
+.bg-light{
+    background-image: url(../img/gambar.png);
+    background-repeat: no-repeat;
+    background-size: auto; 
+    background-attachment: fixed;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+* {
+    margin :0;
+    padding:0;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+/*css menu */
+.page-login{
+    position: fixed;
+    width:100%;
+    height:100vh;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+.box-body {
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-group {
+    margin-bottom: 15px;
+    margin-top: 20px;
+   
+}
+.form-group label {
+    display: flex;
+    margin-bottom: 8px;
+    padding: 5px;
+    margin: -12px 0;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.form-group input {
+    border-radius: 40px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    top: 200px;
+    width: 88%;
+    padding: 10px 20px;
+    box-sizing: content-box;
+    color: #000000;
+    font-size: 16px;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 10px 16px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+.btn{
+    border: 1px solid;
+    padding: 8px 149px;
+    border-radius: 40px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size:16px ;
+    background-color: #008cff;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.label{
+    position: absolute;
+    width: 401px;
+    height: 60px;
+    left: 589px;
+    top: 178px;
+
+
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+
+
+color: #000000;
+}
+.selogan{
+    position: absolute;
+    width: 422px;
+    height: 60px;
+    left: 589px;
+    top: 38px;
+
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+
+
+color: #000000;
+}
+.selogan1{
+    position: absolute;
+    width: 546px;
+    height: 48px;
+    left: 589px;
+    top: 95px;
+
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 48px;
+    color: #000000;
+
+}
+.selogan2{
+    background-image: url();
+    position: absolute;
+    width: 248px;
+    height: 60px;
+    left: 156px;
+    top: 93px;
+
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+/* identical to box height */
+color: #FFFFFF;
+}
+.selogan3{
+    position: absolute;
+width: 458px;
+height: 168px;
+left: 10px;
+top: 437px;
+
+font-family: "Lucida Console", "Courier New", monospace;
+font-style: italic;
+font-weight: 300;
+font-size: 28px;
+line-height: 42px;
+text-align: right;
+
+color: #FFFFFF;
+}
+.selogan4{
+    
+position: absolute;
+width: 279px;
+height: 42px;
+left: 1058px;
+top: 25px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+color: rgba(0, 0, 0, 0.46);
+
+}
+.logoumkt{
+    position: absolute;
+width: 116px;
+height: 99px;
+left: 28px;
+top: 74px;
+}
+.alert{
+    background-color: #00df04;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 20px;
+}
+
+
+

@@ -1,0 +1,43 @@
+body{
+    background-color: #18191a;
+}
+
+.pindah{
+    padding-left: 280px;
+    padding-top: 10px;
+}
+.gaya{
+    font-family: 'Pacifico', cursive;
+    font-weight: 700;
+    color: mediumslateblue;
+    animation-name: write;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes write {
+    0%   {color:mediumslateblue;}
+    25%  {color:rgb(37, 30, 238);}
+    50%  {color:rgb(12, 127, 250);}
+    75%  {color:rgb(90, 24, 189);}
+    100% {color:rgb(5, 49, 246);}
+}
+
+.p2{
+    padding-top: 10px;
+}
+
+.jarak{
+    padding-top: 50px;
+}
+
+ /* CLearfix */
+ .clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+    }
+    .clearfix:after {
+    clear: both;
+    }
+    .clearfix {
+    *zoom: 1;
+    }

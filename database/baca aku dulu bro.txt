@@ -1,0 +1,4 @@
+Databasenya gak bisa ku export secara langsung dari phpmyadmin karena error, jadi kalian bisa copas file db_todolist di atas dan salin ke 
+"xampp\mysql\data"
+kalau terjadi kendala juga, silahkan buat database dengan nama "db_todolist"
+dengan table-table yang dimana gambarnya kuletakkan di bawah. kerjain yang bener ya.. jangan numpang nama doang.
