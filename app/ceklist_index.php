@@ -19,7 +19,7 @@ if (isset($_POST['add'])){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../asset/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../asset/css//hero6.css">
+    <link rel="stylesheet" href="../asset/css//hero10.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet">
@@ -101,7 +101,7 @@ if (isset($_POST['add'])){
                     <i><?= date('l, M d'); ?></i>
                 </div>
                 <div class="space-4">
-                    <h1 class="tulisan">Ultraman said "Ssshhhaaaa"</h1>
+                    <h1 class="tulisan">Your Activity Is Here"</h1>
                     <p class="tulisan2">Write your to do</p>
                 </div>
                 <form action="" method="POST">
